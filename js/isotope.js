@@ -29,7 +29,7 @@ window.addEventListener('load', () => {
       itemSelector: '.portfolio-item',
     });
 
-    let portfolioFilters = select('#portfolio-filters li', true);
+    let portfolioFilters = select('#portfolio-filter li', true);
 
     on(
       'click',
