@@ -873,3 +873,88 @@ Responsive Phones
 
 
 }
+
+/* Phone Responsiveness*/
+
+@media (max-width: 640px) {
+    header {
+        padding: 30px;
+    }
+
+    .nav{
+        display: none;
+    }
+    .search{
+        display: none;
+    }
+
+    .banner{
+        padding: 120px 30px;
+    }
+
+    .bg-slide .content{
+        width: 80vw;
+    }
+
+    .bg-slide .content h1{
+        font-size: 3em;
+    }
+
+    .bg-slide .content p{
+        font-size: 0.8em;
+    }
+
+   .circle.bg{
+    width: 140vw;
+    height: 140vw;
+    }
+
+    .circle.large{
+        width: 70vw;
+        height: 70vw;
+    }
+
+    .circle.small{
+        width: 35vw;
+        height: 35vw; 
+    }
+
+    .bg-slide.active .circle.bg{
+        transform: translate(0,0) rotateZ(-360deg);
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .bg-slide.active .circle.large{
+        transform: translate(0,0) rotateZ(720deg);
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .bg-slide.active .circle.small{
+        transform: translate(0,0) rotateZ(-720deg);
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .lead{
+    bottom: 100px;
+    width: 150px;
+    height: 150px;
+    }
+
+    .move-down ion-icon{
+    font-size: 3.5em;
+    }
+
+    .slide-loader{
+    bottom: 20px;
+    }
+
+    .share{
+        left: 5px;
+    }
+
+
+
+}
