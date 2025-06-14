@@ -13,7 +13,10 @@
     <!---Header-->
     <header>
         <a href="" class="logo">Wedding</a>
-        <a href="#" class="menu"><ion-icon name="menu-outline"></ion-icon></a>
+        <a href="#" class="menu">
+            <ion-icon class="open" name="menu-outline"></ion-icon>
+            <ion-icon class="close" name="close-outline"></ion-icon>
+        </a>
         <ul class="nav"> 
             <li><a class="nav-btn active" href="/" onclick="resetHeader();"
                  ><ion-icon name="home-outline"></ion-icon></a></li>
@@ -27,6 +30,26 @@
         </div> -->
     </header>
     <!---Mobile Nav-->
+    <ul class="nav-mobile">
+    <li>
+        <a class="nav-btn active" href="/" onclick="resetHeader();">
+            <ion-icon name="home-outline"></ion-icon>
+        </a>
+    </li>
+    <li>
+        <a class="nav-btn" href="#" data-target="about">about</a>
+    </li>
+    <li>
+        <a class="nav-btn" href="#" data-target="services">services</a>
+    </li>
+    <li>
+        <a class="nav-btn" href="#" data-target="portfolio">portfolio</a>
+    </li>
+    <li>
+        <a class="nav-btn" href="#" data-target="contact">contact</a>
+    </li>
+</ul>
+
 
     <!---Banner-->
     <div class="banner container-fluid">

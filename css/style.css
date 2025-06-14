@@ -59,6 +59,24 @@ header.active{
     transition: 0.5s;
 }
 
+/* Menu on Mobile*/
+.menu .open{
+    display: block;
+}
+
+.menu .close{
+    display: none;
+}
+
+.menu.active .open{
+    display: none;
+}
+
+.menu.active .close{
+    display: block;
+}
+
+
 .nav{
     display: flex;
 }
@@ -126,6 +144,55 @@ header.active{
 /* ---------------------
 # Mobile Nav
 ------------------------ */
+.nav-mobile {
+    display: none;
+}
+
+.nav-mobile {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: #ffffff;
+    backdrop-filter: blur(20px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+    z-index: 1200;
+    gap: 20px;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.nav-mobile.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.nav-mobile li {
+    position: relative;
+    list-style: none;
+}
+
+.nav-mobile li a {
+    color: #111111;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.5s;
+    font-weight: 300;
+    padding: 10px;
+}
+
+.nav-mobile li a:hover{
+    color: var(--primary);
+}
 
 /* ---------------------
 # Banner
@@ -209,10 +276,8 @@ header.active{
 }
 
 .circle.bg{
-    background: transparent;
     width: 140vw;
     height: 140vw;
-    border-radius: 0;
 }
 
 .circle.large{
@@ -253,13 +318,13 @@ header.active{
 }
 
 .bg-slide.active .circle.large{
-    transform: translate(0,0) rotateZ(-720deg);
+    transform: translate(0,0) rotateZ(720deg);
     opacity: 1;
     visibility: visible;
 }
 
 .bg-slide.active .circle.small{
-    transform: translate(0,0) rotateZ(720deg);
+    transform: translate(0,0) rotateZ(-720deg);
     opacity: 1;
     visibility: visible;
 }
@@ -724,8 +789,85 @@ section p{
 Responsive Phones
 ------------------------ */
 
+@media (max-width: 768px) {
+    header {
+        padding: 30px;
+    }
+
+    .nav{
+        display: none;
+    }
+    .search{
+        display: none;
+    }
+
+    .banner{
+        padding: 120px 30px;
+    }
+
+    .bg-slide .content{
+        width: 80vw;
+    }
+
+    .bg-slide .content h1{
+        font-size: 3em;
+    }
+
+    .bg-slide .content p{
+        font-size: 0.8em;
+    }
+
+   .circle.bg{
+    width: 140vw;
+    height: 140vw;
+    }
+
+    .circle.large{
+        width: 70vw;
+        height: 70vw;
+    }
+
+    .circle.small{
+        width: 35vw;
+        height: 35vw; 
+    }
+
+    .bg-slide.active .circle.bg{
+        transform: translate(0,0) rotateZ(-360deg);
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .bg-slide.active .circle.large{
+        transform: translate(0,0) rotateZ(720deg);
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .bg-slide.active .circle.small{
+        transform: translate(0,0) rotateZ(-720deg);
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .lead{
+    bottom: 100px;
+    width: 150px;
+    height: 150px;
+    }
+
+    .move-down ion-icon{
+    font-size: 3.5em;
+    }
+
+    .slide-loader{
+    bottom: 20px;
+    }
+
+    .share{
+        left: 5px;
+    }
 
 
 
-
-
+}
