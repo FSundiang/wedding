@@ -874,7 +874,7 @@ Responsive Phones
 
 }
 
-/* Phone Responsiveness*/
+/* Phone Responsiveness
 
 @media (max-width: 640px) {
     header {
@@ -955,6 +955,53 @@ Responsive Phones
         left: 5px;
     }
 
+}
+
+*/
 
 
+/* Phone Responsiveness */
+@media (max-width: 640px) {
+    header {
+        padding: 15px; /* Further reduced padding */
+    }
+    .banner {
+        padding: 60px 15px; /* Further reduced padding */
+    }
+    .bg-slide .content {
+        width: 95vw; /* Further increased width */
+    }
+
+    .bg-slide .content h1 {
+        font-size: 2em; /* Further reduced font size */
+    }
+    .bg-slide .content p {
+        font-size: 0.6em; /* Further reduced font size */
+    }
+    .circle.bg {
+        width: 100vw; /* Further adjusted size */
+        height: 100vw; /* Further adjusted size */
+    }
+    .circle.large {
+        width: 50vw; /* Further adjusted size */
+        height: 50vw; /* Further adjusted size */
+    }
+    .circle.small {
+        width: 25vw; /* Further adjusted size */
+        height: 25vw; /* Further adjusted size */
+    }
+    .lead {
+        bottom: 60px; /* Further adjusted position */
+        width: 100px; /* Further adjusted size */
+        height: 100px; /* Further adjusted size */
+    }
+    .move-down ion-icon {
+        font-size: 2em; /* Further reduced icon size */
+    }
+    .slide-loader {
+        bottom: 5px; /* Further adjusted position */
+    }
+    .share {
+        left: 15px; /* Further adjusted position */
+    }
 }
