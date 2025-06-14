@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Wedding Invitation </title>
+</head>
+<body>
+   
+    <!---Header-->
+    <header>
+        <a href="" class="logo">Wedding</a>
+        <a href="#" class="menu"><ion-icon name="menu-outline"></ion-icon></a>
+        <ul class="nav"> 
+            <li><a class="nav-btn active" href="/" onclick="resetHeader();"
+                 ><ion-icon name="home-outline"></ion-icon></a></li>
+            <li><a class="nav-btn" href="#about" data-target="about">about</a></li>
+            <li><a class="nav-btn" href="#journey" data-target="journey">journey</a></li>
+            <li><a class="nav-btn" href="#travels" data-target="travels">travels</a></li>
+        </ul>
+        <!--<div class="search"> 
+            <input type="" placeholder="Search" />
+            <ion-icon name="search-outline"></ion-icon>
+        </div> -->
+    </header>
+    <!---Mobile Nav-->
+
+    <!---Banner-->
+    <div class="banner container-fluid">
+        <div class="bg-slide slide-1 active">
+            <div class="content">
+                <h1>Wedding of Jhessie & Rica</h1>
+                <h3>#RICAFoundHerJHEStiny</h3>
+                <p>Location: Parish of St. Joseph - Cabalantian, Zone 6, Bacolor, Pampanga 2001<br></p>
+                <p>Reception: Aslag Hall, Nuan Farm and Resort, Bacolor, Pampanga<br></p>
+                <p>Time: 2:00 PM <br></p>
+                <p>Date: November 29, 2025<br></p>
+            </div>    
+            <div class="circle bg">
+                <img src="./images/front-page.jpg" alt="">
+                <div class="circle large">
+                    <img src="./images/front-page.jpg"alt="">
+                    <div class="circle small">
+                        <img src="./images/front-page.jpg" alt="">
+                    </div>
+                </div> 
+            </div>
+        </div>
+           <div class="bg-slide slide-2">
+            <div class="content">
+                <h1>Church</h1>
+                <h3></h3>
+                <p><br></p>
+                <p><br></p>
+                <p><br></p>
+                <p></p><br></p>
+            </div>    
+            <div class="circle bg">
+                <img src="./images/front-page.jpg" alt="">
+                <div class="circle large">
+                    <img src="./images/front-page.jpg"alt="">
+                    <div class="circle small">
+                        <img src="./images/front-page.jpg" alt="">
+                    </div>
+                </div> 
+            </div>
+        </div>
+           <div class="bg-slide slide-3">
+            <div class="content">
+                <h1>Reception</h1>
+                <h3></h3>
+                <p><br></p>
+                <p><br></p>
+                <p><br></p>
+                <p><br></p>
+            </div>    
+            <div class="circle bg">
+                <img src="./images/front-page.jpg" alt="">
+                <div class="circle large">
+                    <img src="./images/front-page.jpg"alt="">
+                    <div class="circle small">
+                        <img src="./images/front-page.jpg" alt="">
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <ul class="slide-loader">
+            <li><a class="slide-btn active" data-target="slide-1">1</a></li>
+            <li><a class="slide-btn" data-target="slide-2">2</a></li>
+            <li><a class="slide-btn" data-target="slide-3">3</a></li>
+        </ul>
+
+        <div class="share">
+            <p>share</p>
+            <a href="#"><ion-icon name="share-social-outline"></ion-icon></a>
+        </div>
+
+        <div class="lead">
+            <svg viewBox="0 0 100 100" width="100" height="100">
+                <defs>
+                    <path
+                        id="circle"
+                        d="
+                        M 50, 50
+                        m -37, 0
+                        a 37, 37 0 1, 1 74, 0
+                        a 37, 37 0 1, 1 -74, 0"
+                    />
+                </defs>
+                <text font-size="12">
+                    <textPath xlink:href="#circle">
+                        All in His perfect time. Forever begins now
+                    </textPath>
+                </text>
+            </svg>
+             <!---
+            <a href="#" class="move-down" onclick="initNavigation();">
+                <ion-icon name="chevron-down-outline"></ion-icon>
+                -->
+          
+            </a>
+        </div>
+    </div>
+        
+   
+    <!---******
+    ***Main Start***-->
+    <main>
+        <!---About-->
+        <section id="about" class="about">
+            <div class="container">
+                <div class="row">
+                    <h1>About Us</h1>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="img-box">
+                            <img src="./images/bg-img.jpg" alt="" class="img-fluid">
+                            <img src="./images/about-3.jpg" alt="" class="corner-img">
+                        </div>
+                    </div>
+                     <div class="col-lg-6">
+                        <img src="./images/bg-img.png" alt="" class="section-bg-img">
+                        <h4>Lorem ipsum dolor sit amet</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                        <a href="#" class="section-btn">Discover more</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!---Services (Journey)-->
+        <section id="journey" class = "journey">
+            <div class="container">
+                <div class="row">
+                    <h1>Our Journey</h1>
+                </div>
+                <div class="row d-flex justify-content-center align-items-center">
+                    <div class="col-lg-4 d-flex justify-content-center align-items-center">
+                        <div class="card">
+                            <div class="img-box">
+                                <img src="./images/ring-1.jpg" alt="">
+                            </div>
+                            <div class="details">
+                                <h4>Wedding Plan</h4>
+                                <p>
+                                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime placeat sapiente delectus tenetur modi quibusdam. 
+                                   Cupiditate, quaerat. Sunt sequi consectetur, ipsam itaque animi facere odit eum ducimus nam, earum incidunt.
+                                </p>                           
+                                <a href="#" class="section-btn">Discover more</a>
+                            </div>
+                        </div>
+                    </div>
+
+                       <div class="col-lg-4 d-flex justify-content-center align-items-center">
+                        <div class="card">
+                            <div class="img-box">
+                                <img src="./images/ring-2.jpg" alt="">
+                            </div>
+                            <div class="details">
+                                <h4>Ceremony</h4>
+                                <p>
+                                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime placeat sapiente delectus tenetur modi quibusdam. 
+                                   Cupiditate, quaerat. Sunt sequi consectetur, ipsam itaque animi facere odit eum ducimus nam, earum incidunt.
+                                </p>
+                                <a href="#" class="section-btn">Discover more</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 d-flex justify-content-center align-items-center">
+                        <div class="card">
+                            <div class="img-box">
+                                <img src="./images/about-1.jpg" alt="">
+                            </div>
+                            <div class="details">
+                                <h4>Vows</h4>
+                                <p>
+                                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime placeat sapiente delectus tenetur modi quibusdam. 
+                                   Cupiditate, quaerat. Sunt sequi consectetur, ipsam itaque animi facere odit eum ducimus nam, earum incidunt.
+                                </p>
+                                <a href="#" class="section-btn">Discover more</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!---Portfolio (Travels)-->
+        <section id="travels" class="travels">
+            <div class="container">
+                <div class="row">
+                    <h1>Our Travels</h1>
+                </div>
+                <ul id="portfolio-filter" class="d-flex justify-content-center align-items-center">
+                    <li data-filter="*" class="filter-active">All</li>
+                    <li data-filter=".filter-wedding">Wedding</li>
+                    <li data-filter=".filter-ceremony">Ceremony</li>
+                    <li data-filter=".filter-vows">Vows</li>
+                </ul>
+
+                <div class="row portfolio-container">
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-wedding">
+                        <div class="portfolio-img">
+                            <img class="img-fluid" 
+                            src="./images/portfolio/port-2.jpg" alt="">
+                        </div>
+                    
+                        <div class="portfolio-info">
+                            <h4>Wedding Planning</h4>
+                            <!---<p>Wedding Planning 1</p>-->
+                            <a 
+                            href="./images/portfolio/port-1.jpg" 
+                            data-galler="portfolioGallery"
+                            class="portfolio-lightbox preview-link"
+                            title="Wedding Planning 1">
+                            <ion-icon name="add-outline"></ion-icon>
+                            </a>
+                                <a href="#" class="details-link" title="More Details">
+                                    <ion-icon name="link-outline"></ion-icon>
+                            </a>
+                        </div>
+                    </div>  
+                     
+                <!---Mapping the remaining data-->
+                <div class="col-lg-4 col-md-6 portfolio-item filter-wedding">
+                        <div class="portfolio-img">
+                            <img class="img-fluid" 
+                            src="./images/portfolio/port-1.jpg" alt="">
+                        </div>
+                    
+                        <div class="portfolio-info">
+                            <h4>Ceremony</h4>
+                            <!---<p>Wedding Planning 1</p>-->
+                            <a 
+                            href="./images/portfolio/port-1.jpg" 
+                            data-galler="portfolioGallery"
+                            class="portfolio-lightbox preview-link"
+                            title="Wedding Planning 1">
+                            <ion-icon name="add-outline"></ion-icon>
+                            </a>
+                                <a href="#" class="details-link" title="More Details">
+                                    <ion-icon name="link-outline"></ion-icon>
+                            </a>
+                        </div>
+                    </div>  
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-wedding">
+                        <div class="portfolio-img">
+                            <img class="img-fluid" 
+                            src="./images/ring-1.jpg" alt="">
+                        </div>
+                    
+                        <div class="portfolio-info">
+                            <h4>Promise Ring</h4>
+                            <!---<p>Wedding Planning 1</p>-->
+                            <a 
+                            href="./images/ring-1.jpg" 
+                            data-galler="portfolioGallery"
+                            class="portfolio-lightbox preview-link"
+                            title="Wedding Planning 1">
+                            <ion-icon name="add-outline"></ion-icon>
+                            </a>
+                                <a href="#" class="details-link" title="More Details">
+                                    <ion-icon name="link-outline"></ion-icon>
+                            </a>
+                        </div>
+                    </div>  
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-wedding">
+                        <div class="portfolio-img">
+                            <img class="img-fluid" 
+                            src="./images/portfolio/port-3.jpg" alt="">
+                        </div>
+                    
+                        <div class="portfolio-info">
+                            <h4>Prenup Holy Rosary Parish Church</h4>
+                            <!---<p>Wedding Planning 1</p>-->
+                            <a 
+                            href="./images/portfolio/port-3.jpg" 
+                            data-galler="portfolioGallery"
+                            class="portfolio-lightbox preview-link"
+                            title="Wedding Planning 1">
+                            <ion-icon name="add-outline"></ion-icon>
+                            </a>
+                                <a href="#" class="details-link" title="More Details">
+                                    <ion-icon name="link-outline"></ion-icon>
+                            </a>
+                        </div>
+                    </div>  
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-wedding">
+                        <div class="portfolio-img">
+                            <img class="img-fluid" 
+                            src="./images/portfolio/port-4.jpg" alt="">
+                        </div>
+                    
+                        <div class="portfolio-info">
+                            <h4>Prenup Holy Rosary Parish Church</h4>
+                            <!---<p>Wedding Planning 1</p>-->
+                            <a 
+                            href="./images/portfolio/port-4.jpg" 
+                            data-galler="portfolioGallery"
+                            class="portfolio-lightbox preview-link"
+                            title="Wedding Planning 1">
+                            <ion-icon name="add-outline"></ion-icon>
+                            </a>
+                                <a href="#" class="details-link" title="More Details">
+                                    <ion-icon name="link-outline"></ion-icon>
+                            </a>
+                        </div>
+                    </div>  
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-wedding">
+                        <div class="portfolio-img">
+                            <img class="img-fluid" 
+                            src="./images/portfolio/port-5.jpg" alt="">
+                        </div>
+                    
+                        <div class="portfolio-info">
+                            <h4>Prenup Holy Rosary Parish Church</h4>
+                            <!---<p>Wedding Planning 1</p>-->
+                            <a 
+                            href="./images/portfolio/port-5.jpg" 
+                            data-galler="portfolioGallery"
+                            class="portfolio-lightbox preview-link"
+                            title="Wedding Planning 1">
+                            <ion-icon name="add-outline"></ion-icon>
+                            </a>
+                                <a href="#" class="details-link" title="More Details">
+                                    <ion-icon name="link-outline"></ion-icon>
+                            </a>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!---Main End-->
+
+    <!---JS Vendors-->
+    <script 
+    type="module" 
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js">
+    </script>
+    <script 
+    nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js">
+    </script>
+    <script 
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" 
+    crossorigin="anonymous">
+    </script>
+
+    <!---Customized JS-->
+    <script src="./js/main.js"></script>
+
+</body>
+</html>
