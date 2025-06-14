@@ -276,8 +276,10 @@ header.active{
 }
 
 .circle.bg{
+    background: transparent;
     width: 140vw;
     height: 140vw;
+    border-radius: 0;
 }
 
 .circle.large{
@@ -318,13 +320,13 @@ header.active{
 }
 
 .bg-slide.active .circle.large{
-    transform: translate(0,0) rotateZ(720deg);
+    transform: translate(0,0) rotateZ(-720deg);
     opacity: 1;
     visibility: visible;
 }
 
 .bg-slide.active .circle.small{
-    transform: translate(0,0) rotateZ(-720deg);
+    transform: translate(0,0) rotateZ(720deg);
     opacity: 1;
     visibility: visible;
 }
