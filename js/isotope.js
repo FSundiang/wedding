@@ -33,7 +33,7 @@ window.addEventListener('load', () => {
 
     on(
       'click',
-      '#portfolio-filters li',
+      '#portfolio-filter li',
       function (e) {
         e.preventDefault();
         portfolioFilters.forEach(function (el) {
