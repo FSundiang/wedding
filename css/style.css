@@ -888,6 +888,10 @@ Responsive Phones
         text-align: center;
     }
 
+    .banner h3 {
+    margin-right: 50px; /* or any value you prefer */
+}
+
     .bg-slide .content {
         width: 90vw;
     }
