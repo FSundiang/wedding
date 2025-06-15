@@ -869,7 +869,141 @@ Responsive Phones
     .share{
         left: 5px;
     }
-
-
-
 }
+
+@media (max-width: 549px) {
+    header {
+        padding: 20px;
+    }
+
+    .nav,
+    .search {
+        display: none;
+    }
+
+    .banner {
+        padding: 100px 20px;
+        text-align: center;
+    }
+
+    .bg-slide .content {
+        width: 90vw;
+    }
+
+    .bg-slide .content h1 {
+        font-size: 2em;
+        line-height: 1.2;
+    }
+
+    .bg-slide .content p {
+        font-size: 0.75em;
+    }
+
+    .circle.bg {
+        width: 160vw;
+        height: 160vw;
+    }
+
+    .circle.large {
+        width: 80vw;
+        height: 80vw;
+    }
+
+    .circle.small {
+        width: 40vw;
+        height: 40vw;
+    }
+
+    .bg-slide.active .circle.bg {
+        transform: translate(0, 0) rotateZ(-360deg);
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .bg-slide.active .circle.large {
+        transform: translate(0, 0) rotateZ(720deg);
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .bg-slide.active .circle.small {
+        transform: translate(0, 0) rotateZ(-720deg);
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .lead {
+        bottom: 80px;
+        width: 120px;
+        height: 120px;
+    }
+
+    .move-down ion-icon {
+        font-size: 3em;
+    }
+
+    .slide-loader {
+        bottom: 15px;
+    }
+
+    .share {
+        left: 5px;
+        bottom: 10px;
+    }
+
+    button {
+        padding: 10px 16px;
+        font-size: 0.9em;
+        border-radius: 1.5rem;
+        margin-top: 20px;
+        width: 100%;
+    }
+}
+
+/* Print Styles */
+@media print {
+    * {
+        background: none !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    body {
+        background-color: #fff;
+        color: #000;
+        font-size: 12pt;
+    }
+
+    .nav,
+    .search,
+    .banner,
+    .slide-loader,
+    .circle,
+    .move-down,
+    .share,
+    button {
+        display: none !important;
+    }
+
+    header {
+        padding: 0;
+        margin-bottom: 20px;
+    }
+
+    .content,
+    .bg-slide .content {
+        width: 100%;
+        padding: 0;
+        text-align: left;
+    }
+
+    .bg-slide .content h1 {
+        font-size: 1.5em;
+    }
+
+    .bg-slide .content p {
+        font-size: 1em;
+    }
+}
+
