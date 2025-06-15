@@ -967,6 +967,70 @@ Responsive Phones
         margin-top: 20px;
         width: 100%;
     }
+
+
+    /*About*/
+
+     .about .row {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .about h1 {
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+    }
+
+    .about .col-lg-6 {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .about .img-box {
+        position: relative;
+        width: 100%;
+    }
+
+    .about .img-box img.img-fluid {
+        width: 100%;
+        height: auto;
+    }
+
+    .about .img-box .corner-img {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        width: 100px;
+        height: auto;
+    }
+
+    .about .section-bg-img {
+        display: none; /* Hide decorative bg on small screens if not critical */
+    }
+
+    .about h4 {
+        font-size: 1.2rem;
+        margin: 1rem 0 0.5rem;
+    }
+
+    .about p {
+        font-size: 0.9rem;
+        line-height: 1.5;
+        margin-bottom: 1rem;
+        padding: 0 10px;
+    }
+
+    .about .section-btn {
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 1rem;
+        border-radius: 20px;
+        background-color: var(--primary, #ff0066);
+        color: white;
+        text-decoration: none;
+        margin-top: 10px;
+    }
 }
 
 /* Print Styles */
